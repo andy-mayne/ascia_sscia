@@ -3,7 +3,13 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+parts:
+  - caption: Research Problem
+    chapters:
+    - file: research problem
+  - caption: Logic
+    chapters:
+    - file: Objectives/Purpose of the Model
+    - file: Objectives/Model Outputs
+    - file: Objectives/Experimentation Aims
+
